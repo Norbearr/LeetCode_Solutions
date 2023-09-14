@@ -16,10 +16,10 @@ public class Solution {
         {
             for(int j = 0; j < strs.Length; j++)//this for loop is for iterating through the words
             {
-                if(strs[j][i] != minV[i])//
+                if(strs[j][i] != minV[i])//when it finds a letter that it does not match then just return the string you currently have.
                 return resol;
             }
-            resol = resol + minV[i];
+            resol = resol + minV[i];//add the characters into a string
         }
         return resol;
         
